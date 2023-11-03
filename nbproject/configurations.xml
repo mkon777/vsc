@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AliasData.h</itemPath>
+      <itemPath>AliasEditWindow.h</itemPath>
+      <itemPath>DataManager.h</itemPath>
+      <itemPath>DefaultsData.h</itemPath>
+      <itemPath>DefaultsEditWindow.h</itemPath>
+      <itemPath>DefaultsParams.h</itemPath>
+      <itemPath>FileManager.h</itemPath>
+      <itemPath>MainWindow.h</itemPath>
+      <itemPath>Parser.h</itemPath>
+      <itemPath>UserData.h</itemPath>
+      <itemPath>UserEditWindow.h</itemPath>
+      <itemPath>WindowInterface.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>UserWindow.glade</itemPath>
+      <itemPath>aliasWindow.glade</itemPath>
+      <itemPath>defaultsWindow.glade</itemPath>
+      <itemPath>mainWindow</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AliasData.cpp</itemPath>
+      <itemPath>AliasEditWindow.cpp</itemPath>
+      <itemPath>AliasTabWindowManager.cpp</itemPath>
+      <itemPath>DataManager.cpp</itemPath>
+      <itemPath>DefaultsData.cpp</itemPath>
+      <itemPath>DefaultsEditWindow.cpp</itemPath>
+      <itemPath>DefaultsTabWindowManager.cpp</itemPath>
+      <itemPath>FileManager.cpp</itemPath>
+      <itemPath>MainWindow.cpp</itemPath>
+      <itemPath>Parser.cpp</itemPath>
+      <itemPath>UserData.cpp</itemPath>
+      <itemPath>UserEditWindow.cpp</itemPath>
+      <itemPath>UserTabWindowManager.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <commandlineTool>g++</commandlineTool>
+          <commandLine>-o base `pkg-config --cflags --libs gtk+-3.0`</commandLine>
+        </cTool>
+        <ccTool>
+          <standard>11</standard>
+          <commandlineTool>g++</commandlineTool>
+          <commandLine>`pkg-config --cflags --libs gtk+-3.0`
+-fsanitize=address -fno-omit-frame-pointer</commandLine>
+        </ccTool>
+        <linkerTool>
+          <commandLine>`pkg-config --cflags --libs gtk+-3.0`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="AliasData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AliasData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AliasEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AliasEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AliasTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DefaultsData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DefaultsEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WindowInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aliasWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defaultsWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mainWindow" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+          <commandLine>`pkg-config --cflags --libs gtk+-3.0` -fsanitize=address -fno-omit-frame-pointer</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>`pkg-config --cflags --libs gtk+-3.0`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="AliasData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AliasData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AliasEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AliasEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AliasTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DefaultsData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DefaultsEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DefaultsTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserEditWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserEditWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserTabWindowManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WindowInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aliasWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defaultsWindow.glade" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mainWindow" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
